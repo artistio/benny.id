@@ -69,7 +69,8 @@ h3, h4, h5, h6 { font-family: 'OpenSansSemibold'; color: #FFF; }
 .dark  { color:#333; }
 .dark2  {  color:#555;  }
 
-h1{font-family: 'BebasNeueRegular';font-size:35px;padding: 15px 0; color: #FFF; }
+/* Update 17 July 2015: Add line-height: 110% for better mobile compatibility */
+h1{font-family: 'BebasNeueRegular';font-size:35px;padding: 15px 0; color: #FFF; line-height: 110%; }
 h3 { font-size: 14px; padding-bottom: 15px;}
 h4 { font-size: 13px; padding-bottom: 15px;}
 h5 { font-size: 12px; padding-bottom: 15px; }
