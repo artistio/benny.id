@@ -100,7 +100,7 @@ h6 { font-size: 11px; padding-bottom: 15px; }
 }
 .curtains>li{
     box-shadow:0 0 12px #444;
-   background: #eee url(../img/vintage_speckles.jpg) repeat;
+/*   background: #eee url(../img/vintage_speckles.jpg) repeat;*/
     position: fixed;
     display:block;
     top: 0;
