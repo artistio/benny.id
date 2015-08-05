@@ -1,6 +1,6 @@
 application: benny-id-landing-page
 version: 1
-runtime: python27
+runtime: php55
 api_version: 1
 threadsafe: yes
 
@@ -13,10 +13,12 @@ handlers:
   static_files: \1
   upload: (.*\.(png|jpg|ico|css|js|svg|ttf|woff))
 
+- url: /blog
+  script: blog.html
+
+- url: /blog(/.*)?
+  script: blog/index.php
+
 - url: /.*
   static_files: error.html
   upload: error\.html
-
-libraries:
-- name: webapp2
-  version: "2.5.2"
